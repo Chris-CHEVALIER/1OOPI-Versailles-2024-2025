@@ -11,3 +11,8 @@ void Warrior::display() const
 {
     cout << name << " est un guerrier avec " << atk << " points d'attaque." << endl;
 }
+
+string Warrior::getWeapon()
+{
+    return "Épée";
+}

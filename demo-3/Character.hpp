@@ -11,5 +11,7 @@ protected:
 public:
     Character();
     Character(string newName, int newLife);
-    void display() const;
+    virtual void display() const;
+    virtual ~Character() {};
+    virtual string getWeapon() = 0;
 };

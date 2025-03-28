@@ -11,3 +11,8 @@ void Wizard::display() const
 {
     cout << name << " est un mage avec " << mana << " pm" << endl;
 }
+
+string Wizard::getWeapon()
+{
+    return "Baguette";
+}
